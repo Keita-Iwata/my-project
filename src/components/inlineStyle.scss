@@ -1,0 +1,24 @@
+.inline {
+  background-color: lightgreen;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 20px;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+
+  &__title {
+    font-size: 20px;
+    color: blue;
+    margin: 0;
+  }
+
+  &__button {
+    font-size: 15px;
+    color: red;
+    &:hover {
+      background-color: rgb(3, 159, 0);
+      cursor: pointer;
+    }
+  }
+}
